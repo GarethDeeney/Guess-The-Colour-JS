@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Guess The Colour</title>
+</head>
+
+<body>
+  <div class="heading">
+    <h1>Can You Guess The Colour ?</h1>
+    <h2 class="colourValue">Colour RGB Value</h2>
+    <p class = "check"></p>
+    <button type="button" value = "refresh" onClick = "refresh(this)">Reset</button>
+  </div>
+
+  <div class="boxes">
+    <div class="box box1"> </div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+  </div>
+
+  <div class="boxes">
+    <div class="box box4"> </div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+  </div>
+
+</body>
+<footer>
+  <script src="index.js" charset="utf-8"></script>
+  <script>
+  function refresh(){
+        window.location.reload("Refresh")
+      }
+</script>
+</footer>
+
+</html>
